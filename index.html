@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/script.js"></script>
+    <title>To-Do App</title>
+</head>
+<body>
+    <div class="wrapper">
+        <h1 class="brand">To-Do App <img src="img/logo.png" alt="App Logo" id="logo"></h1>
+        <div class="notepad-container">
+            <div class="note-card" id="noteCard">
+                <div class="input-field">
+                    <input type="text" id="inputBox" placeholder="Add Task" autocomplete="off">
+                </div>
+                <div class="ul">
+                    <ul class="list-container" id="listContainer">
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <button class="add-task" id="addTask" onclick="addTask()">Add Task</button>
+    </div>
+</body>
+</html>
